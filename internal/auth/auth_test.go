@@ -13,7 +13,7 @@ func TestGetAPIKey_Success(t *testing.T) {
 	if err != nil {
 		t.Fatalf("expected no error, got %v", err)
 	}
-	if key != "abc12r" {
+	if key != "abc123" {
 		t.Errorf("expected API key 'abc123', got '%s'", key)
 	}
 }
